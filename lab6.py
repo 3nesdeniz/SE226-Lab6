@@ -16,7 +16,7 @@ def sine_x(x, n):
     return last
 
 print(sine_x(5,10))
-hsum = 0  # for global
+hsum = 0  # for global because no return they say
 def harmonic(n):
     global hsum
     if n == 0:
